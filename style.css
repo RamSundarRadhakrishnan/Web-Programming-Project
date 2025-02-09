@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    box-shadow: 8px, 8px, 15px, tomato;
+}
+.marquee{
+    height: auto;
+    max-width: 50%;
+    border-radius: 10%;
+}
+h1{
+    font-family: "Orbitron", serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 1.5px #333;
+    color: goldenrod;
+}
+body{
+    font-family: "Roboto", serif;
+    font-style: oblique;
+    color: #333;
+}
+header{
+    background-color: tomato;
+    color: #333;
+    padding: 20px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-left: 20px;
+}
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#l1, #l2, #l3, #l4{
+    transition: all 0.5s ease;
+}
+#l1:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    color: tomato;
+    background-color: white;
+    font-weight: bolder;
+}
+#l2:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    color: tomato;
+    background-color: white;
+    font-weight: bolder;
+}
+#l3:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    color: tomato;
+    background-color: white;
+    font-weight: bolder;
+}
+#l4:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    color: tomato;
+    background-color: white;
+    font-weight: bolder;
+}
+.main{
+    background: linear-gradient(25deg, tomato, white);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+.main-content{
+    text-align: center;
+    background: inherit;
+    padding: 20px;
+    border-radius: 20px;
+}
+.main-content h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.main-content p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    border: 1.25px, inset, tomato;
+    padding: 10px 20px;
+    background: #eabab2;
+    color: rgb(152, 111, 8);
+    font-family: "Bebas Neue", serif;
+    font-size: 1.35em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+.btn:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    border-color: tomato;
+    background-color: rgb(90, 1, 172);
+}
+.menu{
+    padding: 20px 40px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.menu h2{
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 1.5px tomato;
+}
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.menu-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: all ease 0.5s;
+}
+.menu-item:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    box-shadow: 5px 5px 5px tomato;
+    text-transform: capitalize;
+}
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.menu-item p {
+    padding: 0 10px 10px;
+    color: #555;
+}
+#testimonials{
+    background-image: url("images/testimonial.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+#testimonials h2{
+    color: #7A1200;
+    text-shadow: 3px 3px 1.5px gold;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

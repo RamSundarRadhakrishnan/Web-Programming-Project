@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link href="formstyle.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1>Momato Food Delivery</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" id="l1">Home</a></li>
+                    <li><a href="menu.html" id="l2">Menu</a></li>
+                    <li><a href="about.html" id="l3">About</a></li>
+                    <li><a href="contact.html" id="l4">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 id="top">
+            Contact Us
+        </h1>
+        <form  onsubmit="return validateForm()" method="post">
+            <div class="userdetails1">
+                <label for="username">Your Name:</label>
+                <input id="username" name="username" type="text" required>
+            </div>
+            <div class="userdetails2">
+                <label for="phone">Your Mobile Number:</label>
+                <input id="phone" name="phone" type="tel" required>
+            </div>
+            <div class="userdetails3">
+                <label for="email">Your Email Address:</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+            <div class="message">
+                <label for="textmessage">Please Enter Your Message:</label>
+                <input id="textmessage" name="textmessage" type="text" required>
+            </div>
+            <input type="submit" value="Submit!" class="submitbtn">
+        </form>
+        <script src="formscript.js" defer></script>
+    </body>
+</html>

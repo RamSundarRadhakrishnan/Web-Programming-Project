@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Momato Menu</title>
+        <link href="menustyle.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1>Momato Food Delivery</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" id="l1">Home</a></li>
+                    <li><a href="menu.html" id="l2">Menu</a></li>
+                    <li><a href="about.html" id="l3">About</a></li>
+                    <li><a href="contact.html" id="l4">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2>Vegetarian Items:</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 8</div>
+                <img src = "images/pavbhaji.jpg" style="width:50%; height:50%">
+                <div class="text">Pav Bhaji</div>
+                <button class="add-to-cart"
+                    data-id="pavbhaji"
+                    data-name="Pav Bhaji"
+                    data-price="50.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img src = "images/purisabji.jpg" style="width:50%; height:50%">
+                <div class="text">Puri Sabji</div>
+                <button class="add-to-cart"
+                    data-id="purisabji"
+                    data-name="Puri Sabji"
+                    data-price="55.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img src = "images/cholebhature.jpg" style="width:50%; height:50%">
+                <div class="text">Chole Bhature</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="cholebhature"
+                    data-name="Chole Bhature"
+                    data-price="100.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 8</div>
+                <img src = "images/pasta.jpg" style="width:50%; height:50%">
+                <div class="text">Pasta</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="pasta"
+                    data-name="Pizza"
+                    data-price="300.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 8</div>
+                <img src = "images/pizza.jpg" style="width:50%; height:50%">
+                <div class="text">Pizza</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="pizza"
+                    data-name="Pizza"
+                    data-price="500.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img src = "images/alooparatha.jpg" style="width:50%; height:50%">
+                <div class="text">Aloo Paratha</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="pizza"
+                    data-name="Pizza"
+                    data-price="10.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img src = "images/paneerbuttermasala.jpg" style="width:50%; height:50%">
+                <div class="text">Paneer Butter Masala</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="pizza"
+                    data-name="Pizza"
+                    data-price="10.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img src = "images/dosa.jpg" style="width:50%; height:50%">
+                <div class="text">Dosa</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="pizza"
+                    data-name="Pizza"
+                    data-price="10.00">
+                    Add to Cart
+                </button>
+            </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+          </div>
+          <br>
+          <h2>Non-Vegetarian Items:</h2>
+        <div class="slideshow-containernonVeg">
+            <div class="mySlidesnonVeg fade ">
+                <div class="numbertext">1 / 8</div>
+                <img src = "images/chickenbiriyani.jpg" style="width:50%; height:50%">
+                <div class="text">Chicken Biriyani</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="chickenbiriyani"
+                    data-name="Chicken Biriyani"
+                    data-price="500.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlidesnonVeg fade">
+                <div class="numbertext">2 / 8</div>
+                <img src = "images/friedchicken.jpg" style="width:50%; height:50%">
+                <div class="text">Fried Chicken</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="friedchicken"
+                    data-name="Fried Chicken"
+                    data-price="500.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlidesnonVeg fade">
+                <div class="numbertext">3 / 8</div>
+                <img src = "images/padthai.jpg" style="width:50%; height:50%">
+                <div class="text">Pad Thai</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="padthai"
+                    data-name="Pad Thai"
+                    data-price="1000.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlidesnonVeg fade">
+                <div class="numbertext">4 / 8</div>
+                <img src = "images/karimeen.jpg" style="width:50%; height:50%">
+                <div class="text">Karimeen Pollichathu</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="karimeenpollichathu"
+                    data-name="Karimeen Pollichathu"
+                    data-price="100.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlidesnonVeg fade">
+                <div class="numbertext">5 / 8</div>
+                <img src = "images/butterchicken.jpg" style="width:50%; height:50%">
+                <div class="text">Butter Chicken</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="butterchicken"
+                    data-name="Butter Chicken"
+                    data-price="1000.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlidesnonVeg fade">
+                <div class="numbertext">6 / 8</div>
+                <img src = "images/hyderabadchickenbiriyani.jpg" style="width:50%; height:50%">
+                <div class="text">Hyderabadi Chicken Biriyani</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="hyderabadchickenbiriyani"
+                    data-name="Hyderabadi Chicken Biriyani"
+                    data-price="1000.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlidesnonVeg fade">
+                <div class="numbertext">7 / 8</div>
+                <img src = "images/eggsontoast.jpg" style="width:50%; height:50%">
+                <div class="text">Eggs on Toast</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="eggsontoast"
+                    data-name="Eggs on Toast"
+                    data-price="1000.00">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="mySlidesnonVeg fade">
+                <div class="numbertext">8 / 8</div>
+                <img src = "images/sausage.jpg" style="width:50%; height:50%">
+                <div class="text">Sausage</div>
+                <br>
+                <button class="add-to-cart"
+                    data-id="sausage"
+                    data-name="Sausage"
+                    data-price="1200.00">
+                    Add to Cart
+                </button>
+            </div>
+                <a class="prev" onclick="plusSlidesnonVeg(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlidesnonVeg(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlidenonVeg(1)"></span>
+            <span class="dot" onclick="currentSlidenonVeg(2)"></span>
+            <span class="dot" onclick="currentSlidenonVeg(3)"></span>
+            <span class="dot" onclick="currentSlidenonVeg(4)"></span>
+            <span class="dot" onclick="currentSlidenonVeg(5)"></span>
+            <span class="dot" onclick="currentSlidenonVeg(6)"></span>
+            <span class="dot" onclick="currentSlidenonVeg(7)"></span>
+            <span class="dot" onclick="currentSlidenonVeg(8)"></span>
+          </div>
+          <button id="order-button">Place Order</button>
+          <script src="menuscript.js"></script>
+    </body>
+</html>

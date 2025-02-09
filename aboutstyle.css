@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}h1{
+    font-family: "Orbitron", serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 1.5px #333;
+    color: goldenrod;
+}
+body{
+    font-family: "Roboto", serif;
+    font-style: oblique;
+    color: #333;
+}
+header{
+    background-color: tomato;
+    color: #333;
+    padding: 20px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-left: 20px;
+}
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#l1, #l2, #l3, #l4{
+    transition: all 0.5s ease;
+}
+#l1:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    color: tomato;
+    background-color: white;
+    font-weight: bolder;
+}
+#l2:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    color: tomato;
+    background-color: white;
+    font-weight: bolder;
+}
+#l3:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    color: tomato;
+    background-color: white;
+    font-weight: bolder;
+}
+#l4:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    color: tomato;
+    background-color: white;
+    font-weight: bolder;
+}
+.main-content {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: all ease 0.5s;
+}
+.main-content:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 25.5px;
+    box-shadow: 5px 5px 5px tomato;
+}
+.main-content p {
+    padding: 0 10px 10px;
+    color: #555;
+}
