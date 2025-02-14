@@ -116,8 +116,8 @@ document.getElementById('order-button').addEventListener('click', function() {
     shoppingCart.forEach(item => {
       const itemCost = item.price * item.quantity;
       totalCost+=itemCost;
-      message += '${item.name} (Quantity: ${item.quantity})\n';
-      message += 'Total Cost: Rs'+ totalCost;
+      message += `${item.name} (Quantity: ${item.quantity})\n`;
+      message += `Total Cost: Rs`+ totalCost + `\n`;
     });
     alert(message);
   }
